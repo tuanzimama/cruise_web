@@ -1,0 +1,28 @@
+// todo 需要封装成插件, left 。topw位置需要调整
+.dialog_wrapper{
+    position: fixed;
+    width: 570px;
+    top: 100px;    
+    left: 200px;
+    padding: 20px 0;
+    background: #fff;
+
+    .dialog_header{
+        position: absolute;
+        left:14px;
+        right:14px;
+        span{
+            left: 0;
+            right: 40px;
+        }
+        .icon-close{
+            right:14px;
+        }
+    }
+    // .dialog_main{
+
+    // }
+    // .dialog_footer{
+
+    // }
+}

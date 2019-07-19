@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Cruise</title>
+</head>
+<body>
+    <div class="cruise_wrapper">
+        <div class="cruise_container">
+            <header class="bg-color-white">
+                <div class="header_warpper row">
+                    <div class="menu_collapse mobile-only">
+                        <i class="icon-lg icon-navicon"></i>
+                    </div>
+                    <div class="header_logo"><img src="${require('./assets/logo.svg')}" alt="logo"/></div>
+                    <div class="header_right">
+                        <div class="header_right_content">
+                            <img src="${require('./assets/avatar.jpg')}" alt="用户图像"/>
+                            <i class="icon-lg icon-angle-down color-9"></i>                                                    
+                        </div>                         
+                        <ul class="drop-down bg-color-white hidden">
+                            <li class=""><a href="#/profile"><i class="icon-sm icon-id-card"></i>Profile</a></li>
+                            <li class=""><a href="javascript:;"><i class="icon-sm icon-sign-in"></i>Sign Out</a></li>
+                        </ul>                                        
+                    </div>
+                </div>
+            </header>
+            <main class="cruise_content">
+                <nav class="cruise_content_menu desktop-only">                   
+                    <div id="nav_close_btn" class="nav_close_btn hidden"><i class="icon-lg icon-close"></i></div>
+                    <ul class="nav_menu">
+                        <li class="li"><a href="#DASHBOARD"><i class="icon-lg icon-dashboard"></i>DASHBOARD</li>
+                        <li class="li menu_active"><a href="#AGENT"><i class=" icon-lg icon-sitemap"></i>AGENT</a></li>
+                        <li class="li"><a href="#CRUISE"><i class="icon-lg icon-boat"></i>MY CRUISE</a></li>
+                        <li class="li"><a href="#HELP"><i class="icon-lg icon-life-bouy"></i>HELP</a></li>
+                    </ul>                   
+                    <ul class="nav_history" id="nav_history"> 
+                        <h4 class="font24 color-c">History</h4>
+                    </ul>
+                </nav>                
+                <div class="cruise_content_main" id="cruise_view"></div>
+            </main>
+            <footer class="font12 text-center bg-color-white">
+                <span> &#169; Copyright 2017 <strong>Thought</strong>works</span>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

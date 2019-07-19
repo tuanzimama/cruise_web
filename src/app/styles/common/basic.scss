@@ -1,0 +1,36 @@
+@import 'variable.scss';
+.icon-lg{font-size: $font20;}
+.icon-md{font-size: $font18;}
+.icon{font-size: $font16;}
+.icon-sm{font-size: $font14;}
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-ellipsis{white-space: nowrap;text-overflow: ellipsis; overflow: hidden;}
+
+.font12{font-size: $font12;}
+.font16{font-size: $font16;}
+.font18{font-size: $font18;}
+.font20{font-size: $font20;}
+.font24{font-size: $font24;}
+.font48{font-size: $font48;}
+.font144{font-size: $font144;}
+
+.font-b{font-weight: 600;}
+.hidden{display: none;}
+
+.color-white{color: $color-white;}
+.color-9{color: $color-9;}
+.color-c{color: $color-c;}
+.bg-color-white{background-color: $color-white;}
+
+.pad-14{padding: $font14;}
+.pad-l-10{padding-left: 10px;}
+.mar-l-20{margin-left: 20px;}
+.mar-r-10{margin-right:10px;}
+
+.color-active{color:$default-hover-color;}
+ i[class^= "icon"]{
+     &:hover{cursor: pointer;}
+ }
